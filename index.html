@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>studio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/studio.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"/> 
 </head>
@@ -15,88 +15,78 @@
 <body>
     <!-- HEADER -->
     <header class="page-header">
-        <section class="section-header">
-            <div class="container">
-                <!--Navigating to other pages header-->
-                <nav class="header-nav">
-                    <!--logo header-->
-                    <div class="wrap-links">
-                        <a class="logo-web link" lang="en" href="index.html">Web<span class="logo-studio link">Studio</span></a>
-                        <ul class="menu list">
-                            <li class="menu-item">
-                                <a class="menu-link active link" href="index.html">Студия</a>
-                            </li>
-                            <li class="menu-item">
-                                <a class="menu-link link" href="./portfolio.html">Портфолио</a>
-                            </li>
-                            <li class="menu-item">
-                                <a class="menu-link link" href="index.html">Контакты</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <ul class="header-contact list">
-                        <li class="header-contact-item">
-                            <a class="header-contact-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                        </li>
-                        <li class="header-contact-item">
-                            <a class="header-contact-phone-number link" href="tel:+380961111111">+38 096 111 11 11</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </section>
+        <div class="container container-flex">
+            <!--Navigating to other pages header-->
+            <nav class="header-nav">
+                <!--logo header-->
+                <a class="logo-web link" lang="en" href="index.html">Web<span class="logo-studio link">Studio</span></a>
+                <ul class="menu list">
+                    <li class="menu-item">
+                        <a class="menu-link active link" href="index.html">Студия</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link link" href="index.html">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="header-contact list">
+                <li class="header-contact-item">
+                    <a class="header-contact-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="header-contact-item">
+                    <a class="header-contact-phone-number link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
     </header>
     <main>
         <section class="main-header">
                 <!-- HERO -->
-                <div class="hero">
-                    <h1 class="title">Эффективные решения <br> для вашего бизнеса</h1>
-                    <button class="modal-btn" type="button">Заказать услугу</button>
-                </div>
+            <h1 class="title">Эффективные решения <br> для вашего бизнеса</h1>
+            <button class="modal-btn" type="button">Заказать услугу</button>
         </section>
         <section class="section section-advantages">
             <div class="container">
                 <!-- OUR ADVANTAGES -->
-                <div class="advantages">
-                    <h2 hidden>our advantages</h2>
-                    <ul class="advantages-list list">
-                        <li class="advantages-item">
-                            <h3 class="title-desc-advantages">Внимание к деталям</h3>
-                            <p class="desc-advantages">Идейные соображения, а также<br> начало повседневной работы по<br> формированию позиции.</p>
-                        </li>
-                        <li class="advantages-item">
-                            <h3 class="title-desc-advantages">Пунктуальность</h3>
-                            <p class="desc-advantages">Задача организации, в особенности<br> же рамки и место обучения кадров<br> влечет за собой.</p>
-                        </li>
-                        <li class="advantages-item">
-                            <h3 class="title-desc-advantages">Планирование</h3>
-                            <p class="desc-advantages">Равным образом консультация с<br> широким активом в значительной<br> степени обуславливает.</p>
-                        </li>
-                        <li class="advantages-item">
-                            <h3 class="title-desc-advantages">Современные технологии</h3>
-                            <p class="desc-advantages">Значимость этих проблем настолько<br> очевидна, что реализация плановых<br> заданий.</p>
-                        </li>
-                    </ul>
-                </div>
+                <h2 hidden>our advantages</h2>
+                <ul class="advantages-list list">
+                    <li class="advantages-item">
+                        <h3 class="title-desc-advantages">Внимание к деталям</h3>
+                        <p class="desc-advantages">Идейные соображения, а также<br> начало повседневной работы по<br> формированию позиции.</p>
+                    </li>
+                    <li class="advantages-item">
+                        <h3 class="title-desc-advantages">Пунктуальность</h3>
+                        <p class="desc-advantages">Задача организации, в особенности<br> же рамки и место обучения кадров<br> влечет за собой.</p>
+                    </li>
+                    <li class="advantages-item">
+                        <h3 class="title-desc-advantages">Планирование</h3>
+                        <p class="desc-advantages">Равным образом консультация с<br> широким активом в значительной<br> степени обуславливает.</p>
+                    </li>
+                    <li class="advantages-item">
+                        <h3 class="title-desc-advantages">Современные технологии</h3>
+                        <p class="desc-advantages">Значимость этих проблем настолько<br> очевидна, что реализация плановых<br> заданий.</p>
+                    </li>
+                </ul>
             </div>
         </section>
         <section class="section section-photo-advantages">
             <div class="container">
                 <!--PHOTOS OF "OUR ADVANTAGES"-->
-                <div class="photo-advantages">
-                    <h2 class="title-photo-advantages">Чем мы занимаемся</h2>
-                    <ul class="list-advantages-photo list">
-                        <li class="advantages-photo-item">
-                            <img class="layout" src="images/img(5).jpg" alt="верстка" width="370" height="294">
-                        </li>
-                        <li class="advantages-photo-item">
-                            <img class="design" src="images/img.jpg" alt="дизайн" width="370" height="294">
-                        </li>
-                        <li class="advantages-photo-item">
-                            <img class="external-design" src="images/img(1)(1).jpg" alt="внешнее оформление" width="370" height="294">
-                        </li>
-                    </ul>
-                </div>
+                <h2 class="title-photo-advantages">Чем мы занимаемся</h2>
+                <ul class="list-advantages-photo list">
+                    <li class="advantages-photo-item">
+                        <img class="layout" src="images/img(5).jpg" alt="верстка" width="370" height="294">
+                    </li>
+                    <li class="advantages-photo-item">
+                        <img class="design" src="images/img.jpg" alt="дизайн" width="370" height="294">
+                    </li>
+                    <li class="advantages-photo-item">
+                        <img class="external-design" src="images/img(1)(1).jpg" alt="внешнее оформление" width="370" height="294">
+                    </li>
+                </ul>
             </div>
         </section>
         <section class="section section-team">

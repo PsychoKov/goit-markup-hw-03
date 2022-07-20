@@ -5,6 +5,12 @@
     margin-left: auto;
     margin-right: auto;
 }
+.container-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
 
 :root {
     --primary-color: #757575;
@@ -37,15 +43,10 @@ img {
     display: block;
 }
 
-* {
-    font-family: 'Roboto', sans-serif;
-}
-
-html {}
-
 body {
     color: #212121;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .list {
@@ -90,10 +91,9 @@ body {
 
 .page-header {
     border-bottom: 1px solid #ECECEC;
-}
-.section-header {
     padding: 24px 0;
 }
+
 .header-nav {
     display: flex;
     align-items: center;
@@ -160,6 +160,9 @@ body {
 .footer-data .footer-contact .footer-contact-item {
     margin-bottom: 9px;
 }
+.footer-data .footer-contact .footer-contact-item:last-child {
+    margin-bottom: 0;
+}
 
 .footer-nav .logo-studio {
     color: var(--secondary-color);
@@ -188,3 +191,135 @@ body {
 }
 
 /* =================FOOTER=================== */
+
+/* =================HERO================ */
+
+.main-header{
+    background-color: #2F303A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 0;
+}
+
+.section {
+    padding: 94px 0;
+}
+.section-team {
+    background: #F5F4FA;
+}
+.section-photo-advantages {
+    padding-top: 0;
+}
+
+.title-photo-team-minidesc {
+    margin-bottom: 50px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}
+
+.modal-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+    color: #FFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    margin-top: 30px;
+    padding: 10px 32px;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: #188CE8;
+}
+
+/* =================HERO================ */
+/* =================OUR ADVANTAGES================ */
+
+.title-desc-advantages {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.desc-advantages {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+}
+
+/* =================OUR ADVANTAGES================ */
+/* =================PHOTOS OF "OUR ADVANTAGES================ */
+
+.title-photo-advantages {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 50px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* =================PHOTOS OF "OUR ADVANTAGES================ */
+/* =================OUR TEAM================ */
+
+.title-photo-team-minidesc {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* =================PHOTOS AND MINI-DESCRIPTION OF "OUR TEAM"================ */
+
+.our-team {
+
+}
+
+.teammate-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+
+.mini-desc {
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color :#757575;
+}
+
+.team-item {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-info {
+    padding: 30px 0;
+}
+
+/* =================PHOTOS AND MINI-DESCRIPTION OF "OUR TEAM"================ */
+/* =================OUR TEAM================ */

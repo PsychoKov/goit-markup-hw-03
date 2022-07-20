@@ -1,6 +1,6 @@
 /* =================MAIN-PORTFOLIO================= */
 
-.main-portfolio .buttons .button-list {
+.main-portfolio .button-list {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -66,9 +66,12 @@
     flex-wrap: wrap;
 }
 
-.product-item { border: 1px solid #EEEEEE; }
-.product-item .product-data {
+.product-item { }
+
+.product-data {
     padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
 }
 
 .product-name {
