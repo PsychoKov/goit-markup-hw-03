@@ -106,9 +106,11 @@ address {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .container-flex {
@@ -202,6 +204,9 @@ main {
 .section-advantages {
 
 }
+.section-advantages .advantages-item{
+    width: 270px;
+}
 .section-advantages .title-desc-advantages {
     font-weight: 700;
     font-size: 14px;
@@ -294,6 +299,7 @@ main {
     justify-content: space-between;
     gap: 30px;
     flex-wrap: wrap;
+
 }
 .portfolio .products-list .product-item {
 
@@ -309,6 +315,7 @@ main {
     line-height: 36px;
     letter-spacing: 0.06em;
     color: #212121;
+    margin-bottom: 4px;
 }
 .portfolio .products-list .product-item .product-data .product-type {
     line-height: 30px;
@@ -319,9 +326,10 @@ main {
     /*--- Footer ---*/
 footer {
     background-color: #2F303A;
+    padding: 60px 0;
 }
 .section-footer-data {
-    padding: 60px 0;
+
 }
 .section-footer-data .logo {
     display: block;
